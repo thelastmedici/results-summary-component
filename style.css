@@ -1,0 +1,49 @@
+:root{
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-Pale-blue: hsl(221, 100%, 96%);
+  --clr-red-100: hsl(0, 100%, 67%);
+  --clr-yellow: hsl(39, 100%, 56%);
+  --clr-green-100: hsl(166, 100%, 37%);
+  --clr-blue-300: hsl(234, 85%, 45%);
+  --clr-bg-blue-100: hsl(252, 100%, 67%);
+  --clr-bg-blue-200:hsl(241, 81%, 54%);
+  --clr-Violet-blue: hsla(256, 72%, 46%, 1); 
+  --clr-Persian-blue: hsla(241, 72%, 46%, 0);
+  --clr-Light-lavender: hsl(241, 100%, 89%);
+  --clr-Dark-gray-blue: hsl(224, 30%, 27%);
+  --bp-largest: 75em;
+  --bp-large: 62.5em;
+  --bp-medium:50em;
+  --bp-small:37.5em;
+  --bp-smallest:26.25em;
+}
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  body{
+    font-weight: 500px;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  
